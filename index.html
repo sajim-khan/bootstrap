@@ -13,7 +13,7 @@
 <body>
     <p class="m-5 m-5 display-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, hic sit. Consequuntur adipisci optio expedita, sapiente magnam quas non ut deserunt ipsum dicta exercitationem nam? Tempore, quisquam, debitis aperiam porro deleniti quam hic eos ut nesciunt aliquid dolor voluptates. Quidem earum at, qui quae soluta dolorem. Sit possimus voluptate reiciendis?</p>
 
-    <p class="ms-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, dolore.</p>
+    <p class="text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, dolore.</p>
     <p class="ms-5 h4">Omnis esse magnam ullam quia nulla reiciendis ad? Ipsa, tempore?</p>
     <p class="ms-5 h3">Accusamus laborum eaque id sunt similique architecto optio nihil ipsum!</p>
     <p class="ms-5 h6">Accusamus laborum eaque id sunt similique architecto optio nihil ipsum!</p>
@@ -92,6 +92,43 @@
         <div class="p-2">Flex item</div>
         <div class="mt-auto p-2">Flex item</div>
       </div>
+
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar scroll</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Link
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Link</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
 
 
     <script src="js/bootstrap.min.js"></script>
